@@ -1,0 +1,1305 @@
+#header {
+  position: relative;
+  background: #fff;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  font-weight: 700;
+  overflow-x: hidden; }
+  #header .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    border: 3px solid #fff; }
+  #header .primary-overlay {
+    background: linear-gradient(to bottom, #db2424, #cb2d3e);
+    position: absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #header #divider-section {
+    color: #fff; }
+  #header .ryan-bucci-name-tag-image {
+    width: 720px;
+    height: auto; }
+  #header .my-name-is-text {
+    font-size: 1.7rem;
+    font-weight: 400; }
+
+body {
+  overflow-x: hidden; }
+
+h2 {
+  font-family: 'Permanent Marker', sans-serif;
+  color: #fff;
+  font-size: 4rem; }
+
+h3 {
+  font-weight: 400;
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+.red-text {
+  color: #fff; }
+
+.text-darken {
+  color: #262626; }
+
+.py-6 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem; }
+
+.pt-6 {
+  padding-top: 4.5rem; }
+
+.pt-7 {
+  padding-top: 5rem; }
+
+.pb-6 {
+  padding-bottom: 4.5rem; }
+
+.pb-7 {
+  padding-bottom: 5rem; }
+
+.pt-10 {
+  padding-top: 13.34rem; }
+
+pb-10 {
+  padding-bottom: 14rem; }
+
+.pt-8 {
+  padding-top: 10rem; }
+
+p {
+  font-size: 1.5rem; }
+
+.display-6 {
+  font-size: 1.5rem; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+#skills {
+  background: #fff; }
+  #skills .skills-image-1 {
+    width: 500px;
+    height: auto; }
+  #skills .progress {
+    height: 8px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
+  #skills .progress {
+    background-image: linear-gradient(to bottom, #ebebeb 0, #d9d9d9 100%);
+    background-repeat: repeat-x; }
+  #skills .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease; }
+  #skills .progress-bar {
+    background-image: linear-gradient(to bottom, #428bca 0, #3071a9 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca',endColorstr='#ff3071a9',GradientType=0); }
+  #skills .progress-bar {
+    box-shadow: none;
+    border-radius: 3px;
+    background-color: #0090D9;
+    background-image: none; }
+  #skills .progress-bar-skills {
+    background-image: linear-gradient(to right, #e61d1d, #cb2d3e); }
+  #skills .fa-html5,
+  #skills .fa-css3-alt,
+  #skills .fa-js,
+  #skills .fa-camera-retro,
+  #skills .fa-pencil-alt,
+  #skills .fa-sass {
+    font-size: 4rem; }
+  #skills .progress-text {
+    color: #262626;
+    font-size: 1.5rem; }
+  #skills .progress-value-bs {
+    font-size: 2.67rem;
+    font-weight: 500;
+    background: -webkit- linear-gradient(to right, #e61d1d, #cb2d3e);
+    background-image: linear-gradient(to right, #e61d1d, #cb2d3e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
+  #skills svg.fa-html5 * {
+    fill: url(#rg);
+    font-size: 4rem; }
+  #skills svg.fa-css3-alt * {
+    fill: url(#rg); }
+  #skills svg.fa-js * {
+    fill: url(#rg); }
+  #skills svg.fa-camera-retro * {
+    fill: url(#rg); }
+  #skills svg.fa-pencil-alt * {
+    fill: url(#rg); }
+  #skills svg.fa-sass * {
+    fill: url(#rg); }
+
+#what-i-currently-do-section {
+  background: #fff; }
+  #what-i-currently-do-section .expertise-image {
+    width: 200px;
+    height: auto; }
+  #what-i-currently-do-section .fa-calendar-alt,
+  #what-i-currently-do-section .fa-newspaper,
+  #what-i-currently-do-section .fa-paper-plane,
+  #what-i-currently-do-section .fa-searchengin,
+  #what-i-currently-do-section .fa-users,
+  #what-i-currently-do-section .fa-newspaper,
+  #what-i-currently-do-section .fa-paint-brush,
+  #what-i-currently-do-section .fa-code,
+  #what-i-currently-do-section .fa-object-ungroup {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+  #what-i-currently-do-section .card {
+    box-shadow: 0px 0px 20px transparent; }
+  #what-i-currently-do-section .card:hover {
+    box-shadow: 0px 0px 60px #d80000; }
+  #what-i-currently-do-section .what-icando-text {
+    margin-bottom: 2rem; }
+  #what-i-currently-do-section .digital-marketing-text {
+    margin-bottom: 3.5rem; }
+  #what-i-currently-do-section svg.fa-calendar-alt * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-newspaper * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-paper-plane * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-searchengin * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-users * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-newspaper * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-paint-brush * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-code * {
+    fill: url(#what-i-can-do-gradient); }
+  #what-i-currently-do-section svg.fa-object-ungroup * {
+    fill: url(#what-i-can-do-gradient); }
+
+#number-of-clients-projects {
+  background: linear-gradient(to left, #cb2d3e, #e61d1d);
+  top: -5px; }
+  #number-of-clients-projects .circle {
+    background-color: red;
+    border: 3px solid #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; }
+  #number-of-clients-projects .btn-danger-custom {
+    background-color: transparent; }
+  #number-of-clients-projects .btn-circle-work.btn-xl-work {
+    width: 190px;
+    height: 190px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 50%;
+    border: 8px solid #fff; }
+  #number-of-clients-projects .fa-user,
+  #number-of-clients-projects .fa-laptop {
+    font-size: 4rem; }
+  #number-of-clients-projects .project-number {
+    font-size: 4rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px; }
+
+#divider-red-section {
+  position: relative;
+  background-size: cover;
+  background-color: #fff;
+  height: 25rem;
+  width: auto; }
+  #divider-red-section .primary-overlay-2 {
+    background: linear-gradient(to bottom, #db2424, #cb2d3e);
+    position: absolute;
+    -webkit-clip-path: polygon(100% 0, 50% 26%, 0 0, 0 55%, 50% 84%, 100% 55%);
+    clip-path: polygon(100% 0, 50% 26%, 0 0, 0 55%, 50% 84%, 100% 55%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#divider-red-section-2 {
+  position: relative;
+  background-size: cover;
+  background-color: #fff;
+  height: 15rem;
+  width: auto; }
+  #divider-red-section-2 .primary-overlay-3 {
+    background: linear-gradient(to left, #cb2d3e, #e61d1d);
+    position: absolute;
+    -webkit-clip-path: polygon(100% 0, 50% 60%, 0 0, 0 100%, 100% 100%);
+    clip-path: polygon(100% 0, 50% 60%, 0 0, 0 100%, 100% 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#divider-red-section-3 {
+  position: relative;
+  background-size: cover;
+  background-color: #fff;
+  height: 15rem;
+  width: auto; }
+  #divider-red-section-3 .primary-overlay-4 {
+    background: linear-gradient(to left, #cb2d3e, #e61d1d);
+    position: absolute;
+    -webkit-clip-path: polygon(100% 30%, 50% 100%, 0 30%, 0 0, 100% 0);
+    clip-path: polygon(100% 30%, 50% 100%, 0 30%, 0 0, 100% 0);
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#divider-red-section-4 {
+  position: relative;
+  background-size: cover;
+  background-color: #fff;
+  height: 15rem;
+  width: auto; }
+  #divider-red-section-4 .primary-overlay-2 {
+    background: linear-gradient(to left, #cb2d3e, #e61d1d);
+    position: absolute;
+    -webkit-clip-path: polygon(100% 0, 50% 60%, 0 0, 0 100%, 50% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 50% 60%, 0 0, 0 100%, 50% 100%, 100% 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#divider-red-section-5 {
+  position: relative;
+  background-size: cover;
+  background-color: #fff;
+  height: 15rem;
+  width: auto; }
+  #divider-red-section-5 .primary-overlay-4 {
+    background: linear-gradient(to left, #cb2d3e, #e61d1d);
+    position: absolute;
+    -webkit-clip-path: polygon(100% 30%, 50% 100%, 0 30%, 0 0, 100% 0);
+    clip-path: polygon(100% 30%, 50% 100%, 0 30%, 0 0, 100% 0);
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#what-clients-say .bg-danger-2 {
+  background-color: #ce2121; }
+
+#what-clients-say .fa-star {
+  font-size: 2rem; }
+
+#what-clients-say .testimonial-text-3 {
+  font-size: 1rem; }
+
+#what-clients-say .testimonial-text-1 {
+  font-size: 1rem; }
+
+#what-clients-say .testimonial-text-2 {
+  font-size: 1.2rem; }
+
+#what-clients-say .card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); }
+  #what-clients-say .card:hover .card-body:hover {
+    background-color: #ff2a2a;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+#check-out-my-portfolio {
+  background: linear-gradient(to left, #cb2d3e, #e61d1d);
+  top: -4px; }
+  #check-out-my-portfolio h3 {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #fff; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    width: 300px;
+    height: auto; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 400px;
+    height: auto; }
+  #check-out-my-portfolio .wrap {
+    padding-top: 0.5rem; }
+  #check-out-my-portfolio a {
+    -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 1.2rem; }
+  #check-out-my-portfolio a.button {
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(255, 255, 255, 0.9) 0 0px 0px 2px inset; }
+  #check-out-my-portfolio a.button:hover {
+    color: rgba(255, 0, 0, 0.85);
+    box-shadow: white 0 0px 0px 40px inset; }
+  #check-out-my-portfolio .fa-instagram,
+  #check-out-my-portfolio .fa-linkedin,
+  #check-out-my-portfolio .fa-pinterest,
+  #check-out-my-portfolio .fa-behance {
+    font-size: 2.5rem; }
+
+#contact .fa-pencil-alt {
+  color: #fff;
+  font-size: 1.2rem; }
+
+#footer {
+  background: #1c1c1c; }
+  #footer p {
+    font-size: 1rem;
+    color: #464646; }
+  #footer h4 {
+    color: #464646;
+    font-size: 2rem; }
+  #footer #rb-content-strategist {
+    font-size: 1.5rem; }
+  #footer #social-media-header {
+    font-family: 'Permanent Marker', sans-serif; }
+  #footer ul {
+    text-decoration: none; }
+    #footer ul li {
+      text-decoration: none;
+      color: #464646; }
+      #footer ul li a {
+        text-decoration: none;
+        color: #464646; }
+  #footer .fa-instagram,
+  #footer .fa-linkedin,
+  #footer .fa-pinterest,
+  #footer .fa-behance {
+    font-size: 2.5rem;
+    color: #464646; }
+
+#resume .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%; }
+
+#resume .btn-circle.btn-lg {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33; }
+
+#resume .fa-linkedin,
+#resume .fa-file-word,
+#resume .fa-file-pdf {
+  font-size: 2rem; }
+
+.wrap-red a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+.wrap-red a.button {
+  color: rgba(255, 0, 0, 0.8);
+  box-shadow: rgba(255, 0, 0, 0.9) 0 0px 0px 2px inset; }
+
+.wrap-red a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: red 0 0px 0px 40px inset; }
+
+#professional-experience h3 {
+  font-size: 3rem; }
+
+#hospital-careers-section .HC-Logo-Image {
+  width: 300px;
+  height: auto; }
+
+#hospital-careers-section p {
+  font-size: 1rem; }
+
+#hospital-careers-section .skill-used-list li {
+  font-size: 0.8rem; }
+
+#upwork-section .upwork-logo-image {
+  width: 300px;
+  height: auto; }
+
+#upwork-section p {
+  font-size: 1rem; }
+
+#upwork-section .skill-used-list li {
+  font-size: 0.8rem; }
+
+#upwork-section .wrap-upwork a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#upwork-section .wrap-upwork a.button {
+  color: #6fda44;
+  box-shadow: #6fda44 0 0px 0px 2px inset; }
+
+#upwork-section .wrap-upwork a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #6fda44 0 0px 0px 40px inset; }
+
+#vgc-section .vengeance-gaming-community-image {
+  width: 300px;
+  height: auto; }
+
+#vgc-section p {
+  font-size: 1rem; }
+
+#vgc-section .skill-used-list li {
+  font-size: 0.8rem; }
+
+#educational-background .education-text {
+  font-size: 3rem; }
+
+#educational-background .utk-logo-image {
+  width: 250px;
+  height: auto; }
+
+#educational-background .bearden-hs-logo-image {
+  width: 250px;
+  height: auto; }
+
+#certifications-section .certification-text {
+  font-size: 3rem; }
+
+#certifications-section .google-analytics-image {
+  width: 250px;
+  height: auto; }
+
+#certifications-section .google-adwords-image {
+  width: 290px;
+  height: auto; }
+
+#volunteer-experience-section .volunteer-text {
+  font-size: 3rem; }
+
+#volunteer-experience-section .sevier-heights-image {
+  width: 150px;
+  height: auto; }
+
+#honors-awards-section .honoraward-text {
+  font-size: 3rem; }
+
+#honors-awards-section p {
+  font-size: 1rem; }
+
+#honors-awards-section .utk-logo-image {
+  width: 250px;
+  height: auto; }
+
+#honors-awards-section .bearden-hs-logo-image {
+  width: 250px;
+  height: auto; }
+
+#dl-resume-2 .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%; }
+
+#dl-resume-2 .btn-circle.btn-lg {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33; }
+
+#dl-resume-2 .fa-linkedin,
+#dl-resume-2 .fa-file-word,
+#dl-resume-2 .fa-file-pdf {
+  font-size: 2rem; }
+
+#quick-portfolio-links li a {
+  color: #262626;
+  font-size: 1.5rem;
+  font-weight: 400; }
+  #quick-portfolio-links li a:hover {
+    border-bottom: 4px solid red; }
+
+#website-design-section h3 {
+  font-family: 'Permanent Marker', sans-serif; }
+
+#website-design-section .wrap-website-live a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#website-design-section .wrap-website-live a.button {
+  color: #ea0f0f;
+  box-shadow: #ea0f0f 0 0px 0px 2px inset; }
+
+#website-design-section .wrap-website-live a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #ea0f0f 0 0px 0px 40px inset; }
+
+#logo-design-section .apex-motorcycle-image {
+  height: 150px;
+  width: auto; }
+
+#logo-design-section .anchor-athletics-logo {
+  height: 300px;
+  width: auto; }
+
+#logo-design-section .cardinal-home-security-image {
+  height: 200px;
+  width: auto; }
+
+#logo-design-section .hive-method-image {
+  height: 110px;
+  width: auto; }
+
+#logo-design-section .ryan-bucci-personal-logo-image {
+  height: 200px;
+  width: auto; }
+
+#logo-design-section .wrap-victory-lap a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#logo-design-section .wrap-victory-lap a.button {
+  color: #fd2424;
+  box-shadow: #fd2424 0 0px 0px 2px inset; }
+
+#logo-design-section .wrap-victory-lap a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #fd2424 0 0px 0px 40px inset; }
+
+#graphic-design-section .cardinal-image-1 {
+  height: 450px;
+  width: auto; }
+
+#graphic-design-section .cardinal-image-2 {
+  height: 450px;
+  width: auto; }
+
+#graphic-design-section .cardinal-image-3 {
+  height: 400px;
+  width: auto; }
+
+#graphic-design-section .hc-infographic-1 {
+  height: 1000px;
+  width: auto; }
+
+#graphic-design-section .hc-infographic-2 {
+  height: 1000px;
+  width: auto; }
+
+#graphic-design-section .anaheim-ducks-forza-mockup-image {
+  height: 280px;
+  width: auto; }
+
+#graphic-design-section .wrap-beige a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-beige a.button {
+  color: #c7ae75;
+  box-shadow: #c7ae75 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-beige a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #c7ae75 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-captain a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-captain a.button {
+  color: #02093f;
+  box-shadow: #02093f 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-captain a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #02093f 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-ironman a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-ironman a.button {
+  color: #EF1D1D;
+  box-shadow: #EF1D1D 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-ironman a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #EF1D1D 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-joker a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-joker a.button {
+  color: #43187F;
+  box-shadow: #43187F 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-joker a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #43187F 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-punisher a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-punisher a.button {
+  color: #000000;
+  box-shadow: #000000 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-punisher a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #000000 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-pennywise a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-pennywise a.button {
+  color: #f47407;
+  box-shadow: #f47407 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-pennywise a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #f47407 0 0px 0px 40px inset; }
+
+#graphic-design-section .wrap-redwings a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -ms-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  -o-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1rem; }
+
+#graphic-design-section .wrap-redwings a.button {
+  color: #ea0f0f;
+  box-shadow: #ea0f0f 0 0px 0px 2px inset; }
+
+#graphic-design-section .wrap-redwings a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #ea0f0f 0 0px 0px 40px inset; }
+
+#anaheim-ducks-branding-page {
+  background-color: #1e1e1e; }
+
+#captain-america-branding-page {
+  background-color: #fff; }
+
+#iron-man-branding-page {
+  background-color: #701410; }
+
+#joker-harley-branding-page {
+  background-color: #43187F; }
+
+#punisher-branding-page {
+  background-color: #000000; }
+
+#pennywise-branding-page {
+  background-color: #fff; }
+
+#red-wings-branding-page {
+  background-color: #ea0f0f; }
+
+#error-page {
+  background: linear-gradient(to right, #e61d1d, #cb2d3e);
+  font-size: 2rem; }
+  #error-page a:hover {
+    font-size: 2rem; }
+
+#thanks-for-contact-page {
+  background: linear-gradient(to right, #e61d1d, #cb2d3e);
+  font-size: 2rem; }
+
+@media all and (min-width: 960px) and (max-width: 1199px) {
+  body {
+    overflow-x: hidden; }
+  #home h4 {
+    font-size: 1.5rem; }
+  #header .ryan-bucci-name-tag-image {
+    width: 600px;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 10px; }
+  #header .my-name-is-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0px; }
+  #header #resume-buttons .resume-header-button {
+    margin-top: 0px; }
+  #divider-section h2 {
+    font-size: 3rem;
+    padding-bottom: 0px; }
+  #skills {
+    padding-top: 10px; }
+    #skills .skills-image-1 {
+      width: 300px;
+      height: auto; }
+    #skills .progress-value-bs {
+      font-size: 2rem; }
+    #skills h2 {
+      position: relative; }
+  #what-i-currently-do-section .expertise-image {
+    width: 120px;
+    height: auto; }
+  #what-i-currently-do-section h2 {
+    position: relative;
+    right: 17%; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    height: auto;
+    width: 200px; }
+  #check-out-my-portfolio .portfolio-check-out-text {
+    padding-bottom: 5px; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 320px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: -30px; }
+  #check-out-my-portfolio a {
+    padding-bottom: 0px;
+    padding-top: 4px; }
+  #footer #rb-content-strategist {
+    font-size: 1.2rem; }
+  #resume p {
+    padding-bottom: 5px;
+    font-size: 1.5rem; }
+  #professional-experience h3 {
+    padding-top: 30px;
+    font-size: 2.3rem; } }
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+  body {
+    overflow-x: hidden; }
+  #home h4 {
+    font-size: 1.5rem; }
+  #header .ryan-bucci-name-tag-image {
+    width: 600px;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 10px; }
+  #header .my-name-is-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0px; }
+  #header #resume-buttons .resume-header-button {
+    margin-top: 0px; }
+  #divider-section h2 {
+    font-size: 3rem;
+    padding-bottom: 0px; }
+  #skills {
+    padding-top: 10px; }
+    #skills .skills-image-1 {
+      width: 300px;
+      height: auto; }
+    #skills .progress-value-bs {
+      font-size: 2rem; }
+    #skills h2 {
+      position: relative; }
+  #what-i-currently-do-section .expertise-image {
+    width: 120px;
+    height: auto; }
+  #what-i-currently-do-section h2 {
+    position: relative;
+    right: 17%; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    height: auto;
+    width: 200px; }
+  #check-out-my-portfolio .portfolio-check-out-text {
+    padding-bottom: 5px; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 320px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: -30px; }
+  #check-out-my-portfolio a {
+    padding-bottom: 0px;
+    padding-top: 4px; }
+  #footer #rb-content-strategist {
+    padding-left: 170px;
+    padding-bottom: 15px;
+    font-size: 1.5rem; }
+  #footer h4 {
+    font-size: 1.5rem; }
+  #footer #social-media-header {
+    padding-right: 33px;
+    padding-top: 15px;
+    padding-bottom: 5px; }
+  #footer .social-media-footer {
+    padding-left: 0px;
+    padding-right: 250px; }
+  #resume p {
+    padding-bottom: 5px;
+    font-size: 1.5rem; }
+  #professional-experience h3 {
+    padding-top: 30px;
+    font-size: 2.3rem; }
+  #hospital-careers-section .HC-Logo-Image {
+    height: 70px;
+    width: auto; }
+  #hospital-careers-section .hospital-careers-resume-text {
+    padding-top: 30px; }
+  #upwork-section .upwork-logo-image {
+    height: 80px;
+    width: auto; }
+  #upwork-section .upwork-resume-text {
+    padding-top: 30px; }
+  #vgc-section .vengeance-gaming-community-image {
+    height: auto;
+    width: 330px; }
+  #vgc-section .vgc-resume-text {
+    padding-top: 30px; }
+  #educational-background .utk-resume-text {
+    padding-top: 30px; }
+  #volunteer-experience-section .sh-resume-text {
+    padding-top: 30px; }
+  #honors-awards-section .utk-resume-text {
+    padding-top: 30px; }
+  #website-design-section h3 {
+    padding-left: 180px; } }
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden; }
+  #home h4 {
+    font-size: 1.5rem; }
+  #header .ryan-bucci-name-tag-image {
+    width: 600px;
+    height: auto;
+    padding-right: 20px;
+    margin-left: -38px;
+    padding-top: 10px; }
+  #header .my-name-is-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0px; }
+  #header #resume-buttons .resume-header-button {
+    margin-top: 0px; }
+  #divider-section h2 {
+    font-size: 2rem;
+    padding-bottom: 0px; }
+  #skills {
+    padding-top: 10px; }
+    #skills .skills-image-1 {
+      width: 300px;
+      padding-left: 20px;
+      height: auto; }
+    #skills .progress-value-bs {
+      font-size: 2rem; }
+    #skills h2 {
+      position: relative;
+      left: 20%; }
+  #what-i-currently-do-section .expertise-image {
+    width: 120px;
+    height: auto; }
+  #what-i-currently-do-section h2 {
+    position: relative;
+    right: 17%; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    height: auto;
+    width: 200px; }
+  #check-out-my-portfolio .portfolio-check-out-text {
+    padding-bottom: 5px; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 320px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: -30px; }
+  #check-out-my-portfolio a {
+    padding-bottom: 0px;
+    padding-top: 4px; }
+  #footer #rb-content-strategist {
+    padding-left: 90px;
+    padding-bottom: 15px;
+    font-size: 1.5rem; }
+  #footer h4 {
+    font-size: 1.5rem; }
+  #footer #social-media-header {
+    padding-right: 33px;
+    padding-top: 15px;
+    padding-bottom: 5px; }
+  #footer .social-media-footer {
+    padding-left: 0px;
+    padding-right: 160px; }
+  #resume p {
+    padding-bottom: 5px;
+    font-size: 1.5rem; }
+  #professional-experience h3 {
+    padding-top: 30px;
+    font-size: 2.3rem; }
+  #hospital-careers-section .HC-Logo-Image {
+    height: 70px;
+    width: auto; }
+  #hospital-careers-section .hospital-careers-resume-text {
+    padding-top: 30px; }
+  #upwork-section .upwork-logo-image {
+    height: 80px;
+    width: auto; }
+  #upwork-section .upwork-resume-text {
+    padding-top: 30px; }
+  #vgc-section .vengeance-gaming-community-image {
+    height: auto;
+    width: 330px; }
+  #vgc-section .vgc-resume-text {
+    padding-top: 30px; }
+  #educational-background .utk-resume-text {
+    padding-top: 30px; }
+  #volunteer-experience-section .sh-resume-text {
+    padding-top: 30px; }
+  #honors-awards-section .utk-resume-text {
+    padding-top: 30px; }
+  #website-design-section h3 {
+    padding-left: 50px; } }
+
+@media all and (max-width: 479px) {
+  body {
+    overflow-x: hidden; }
+  #home h4 {
+    font-size: 1.5rem; }
+  #header .ryan-bucci-name-tag-image {
+    width: 360px;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 10px; }
+  #header .my-name-is-text {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0px; }
+  #header #resume-buttons .resume-header-button {
+    margin-top: 0px; }
+  #divider-section h2 {
+    font-size: 2rem;
+    padding-bottom: 0px; }
+  #skills {
+    padding-top: 10px; }
+    #skills .skills-image-1 {
+      width: 300px;
+      padding-left: 80px;
+      height: auto; }
+    #skills .progress-value-bs {
+      font-size: 2rem; }
+    #skills h2 {
+      position: relative;
+      left: 25%; }
+  #what-i-currently-do-section .expertise-image {
+    width: 120px;
+    height: auto; }
+  #what-i-currently-do-section h2 {
+    position: relative;
+    right: 17%; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    height: auto;
+    width: 200px; }
+  #check-out-my-portfolio .portfolio-check-out-text {
+    padding-bottom: 5px; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 320px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: -30px; }
+  #check-out-my-portfolio a {
+    padding-bottom: 0px;
+    padding-top: 4px; }
+  #footer #rb-content-strategist {
+    padding-left: 60px;
+    padding-bottom: 15px;
+    font-size: 1.5rem; }
+  #footer h4 {
+    font-size: 1.5rem; }
+  #footer #social-media-header {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px; }
+  #footer .social-media-footer {
+    padding-left: 0px;
+    padding-right: 130px; }
+  #resume p {
+    padding-bottom: 5px;
+    font-size: 1.5rem; }
+  #professional-experience h3 {
+    padding-top: 30px;
+    font-size: 2.3rem; }
+  #hospital-careers-section .HC-Logo-Image {
+    height: 70px;
+    width: auto; }
+  #hospital-careers-section .hospital-careers-resume-text {
+    padding-top: 30px; }
+  #upwork-section .upwork-logo-image {
+    height: 80px;
+    width: auto; }
+  #upwork-section .upwork-resume-text {
+    padding-top: 30px; }
+  #vgc-section .vengeance-gaming-community-image {
+    height: auto;
+    width: 330px; }
+  #vgc-section .vgc-resume-text {
+    padding-top: 30px; }
+  #educational-background .utk-resume-text {
+    padding-top: 30px; }
+  #volunteer-experience-section .sh-resume-text {
+    padding-top: 30px; }
+  #honors-awards-section .utk-resume-text {
+    padding-top: 30px; }
+  #website-design-section h3 {
+    padding-left: 50px; } }
+
+@media all and (max-width: 320px) {
+  body {
+    overflow-x: hidden; }
+  #home h4 {
+    font-size: 1.5rem; }
+  #header .ryan-bucci-name-tag-image {
+    width: 270px;
+    height: auto;
+    padding-right: 13px; }
+  #header .my-name-is-text {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0px; }
+  #header #resume-buttons .resume-header-button {
+    margin-top: 0px; }
+  #divider-section {
+    padding-bottom: 5px !important;
+    padding-top: 25px !important; }
+    #divider-section h2 {
+      font-size: 2rem;
+      padding-bottom: 0px; }
+  #skills {
+    padding-top: 10px; }
+    #skills .skills-image-1 {
+      width: 200px;
+      padding-left: 60px;
+      height: auto; }
+    #skills .progress-value-bs {
+      font-size: 2rem; }
+    #skills h2 {
+      font-size: 1.8rem;
+      padding-right: 60px; }
+  #what-i-currently-do-section .expertise-image {
+    width: 120px;
+    height: auto; }
+  #what-i-currently-do-section h2 {
+    padding-right: 30px; }
+  #number-of-clients-projects .project-number {
+    font-size: 2.25rem; }
+  #number-of-clients-projects h4 {
+    font-size: 2rem;
+    padding-bottom: 20px; }
+  #check-out-my-portfolio .ryan-bucci-resume-image {
+    height: auto;
+    width: 200px; }
+  #check-out-my-portfolio .ryan-bucci-portfolio-image {
+    width: 280px;
+    height: auto;
+    padding-bottom: 15px; }
+  #check-out-my-portfolio a {
+    padding-bottom: 0px;
+    padding-top: 4px; }
+  #footer #rb-content-strategist {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-size: 1rem; }
+  #footer h4 {
+    font-size: 1.5rem; }
+  #footer #social-media-header {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px; }
+  #footer .social-media-footer {
+    padding-left: 0px;
+    padding-right: 50px; }
+  #resume h2 {
+    font-size: 3rem; }
+  #resume p {
+    font-size: 1rem;
+    padding-bottom: 10px; }
+  #professional-experience h3 {
+    font-size: 2.5rem;
+    padding-left: 25px; }
+  #hospital-careers-section .HC-Logo-Image {
+    height: 70px;
+    width: auto; }
+  #upwork-section .upwork-logo-image {
+    height: 80px;
+    width: auto; }
+  #vgc-section .vengeance-gaming-community-image {
+    height: auto;
+    width: 250px;
+    padding-bottom: 15px; }
+  #educational-background .utk-logo-image {
+    padding-bottom: 15px; }
+  #educational-background .bearden-hs-logo-image {
+    padding-bottom: 15px; }
+  #certifications-section .certification-text {
+    font-size: 2.5rem;
+    padding-left: 10px; }
+  #volunteer-experience-section h3 {
+    font-size: 1.75rem; }
+  #volunteer-experience-section .volunteer-text {
+    padding-left: 25px; }
+  #volunteer-experience-section .sevier-heights-image {
+    height: 90px;
+    width: auto;
+    padding-bottom: 15px; }
+  #honors-awards-section h3 {
+    font-size: 1.75rem; }
+  #honors-awards-section .honoraward-text {
+    font-size: 2rem;
+    padding-left: 10px; }
+  #honors-awards-section .utk-logo-image {
+    padding-bottom: 20px; }
+  #quick-portfolio-links h2 {
+    font-size: 3.5rem; }
+  #website-design-section h2 {
+    font-size: 3.45rem; }
+  #website-design-section h3 {
+    padding-left: 60px; } }

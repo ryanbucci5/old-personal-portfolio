@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115617479-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-115617479-1');
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="path/to/lightbox.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ryan Bucci | Portfolio</title>
+    </head>
+
+    <body id="home">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light py-2">
+            <div class="container">
+                <a href="index.html" class="navbar-brand text-muted">
+                    <img src="img/PersonalLogo2-01-small-01.png" alt="Ryan Bucci Logo"><h4 class="d-inline align-middle"> Ryan Bucci </h4>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse text-muted" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-red">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-muted text-uppercase">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="resume.html" class="nav-link text-muted text-uppercase">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html" class="nav-link text-muted text-uppercase">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html/#contact" class="nav-link text-muted text-uppercase">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Branding Package -->
+        <section id="thanks-for-contact-page">
+            <div class="container text-center pt-7 pb-5">
+                <div class="row text-center">
+                    <div class="col text-center">
+                        <img src="img/contact-01.png" alt="Contact Thank You Page - Ryan Bucci Portfolio" class="img-fluid pb-6">
+                        <a href="index.html" class="pt-6 text-white text-center"><i class="fas fa-arrow-circle-left"></i> Go Home!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- Footer -->
+       <section id="footer" class="pt-5 pb-3">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-4">
+                       <h4 class="text-left text-white" id="rb-content-strategist">Ryan Bucci | Content Strategist</h4>
+                   </div>
+                   
+                   <div class="col-lg-4">
+                       <h4 class="text-center text-white">RyanBucci.io</h4>
+                       <ul class="list-unstyled text-center">
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="resume.html">Resume</a></li>
+                           <li><a href="portfolio.html">Portfolio</a></li>
+                           <li><a href="index.html/#check-out-my-portfolio">Social Media</a></li>
+                           <li><a href="index.html/#contact">Contact</a></li>
+                       </ul>
+                   </div>
+                   
+                   <div class="col-lg-4 text-right text-white social-media-footer">
+                       <h4 class="text-right text-white" id="social-media-header">Social Media</h4>
+                       <a href="https://www.instagram.com/ryanbucci5/" class="footer-social-media-link d-inline-block text-right px-2"><i class="fab fa-instagram text-white d-inline-block text-right"></i></a>
+                        <a href="https://www.linkedin.com/in/ryan-bucci/" class="footer-social-media-link d-inline-block text-right px-2"><i class="fab fa-linkedin text-white d-inline-block text-right"></i></a>
+                        <a href="https://www.pinterest.com/evilsniperxv/" class="footer-social-media-link d-inline-block text-right px-2"><i class="fab fa-pinterest text-white d-inline-block text-right"></i></a>
+                        <a href="https://www.behance.net/xxevilsnip52fe" clas="footer-social-media-link d-inline-block text-right px-2"><i class="fab fa-behance text-white d-inline-block text-right"></i></a>
+                   </div>
+                   
+                   <div class="row pb-1 pt-3">
+                       <div class="col">
+                           <p class="text-center">Disclaimer: All images of companies/organizations are &copy; Copyright the respective parties and no infringement is intended. They have been used for artistic interpretations to spice up the Resume page.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       
+       
+
+       <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="path/to/lightbox.js"></script>
+        
+        <!-- Smooth Scroll Script -->
+        <script>// Select all links with hashes
+                $('a[href*="#"]')
+                  // Remove links that don't actually link to anything
+                  .not('[href="#"]')
+                  .not('[href="#0"]')
+                  .click(function(event) {
+                    // On-page links
+                    if (
+                      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                      && 
+                      location.hostname == this.hostname
+                    ) {
+                      // Figure out element to scroll to
+                      var target = $(this.hash);
+                      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                      // Does a scroll target exist?
+                      if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                          scrollTop: target.offset().top
+                        }, 1200, function() {
+                          // Callback after animation
+                          // Must change focus!
+                          var $target = $(target);
+                          $target.focus();
+                          if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                          } else {
+                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                          };
+                        });
+                      }
+                    }
+                  });
+        </script>
+       
+            
+        
+        
+        
+    </body>
+</html>
